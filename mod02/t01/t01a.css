@@ -5,6 +5,10 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .menu {
     display: flex;
     list-style: none;
@@ -21,11 +25,6 @@ body {
     text-align: center;
     margin: 0 .05em;
 }
-
-.menu__item a {
-    text-decoration: none;
-}
-
 
 .menu__item:hover {
     background-color: teal;
