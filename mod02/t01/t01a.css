@@ -1,0 +1,33 @@
+body {
+    background-color: slategrey;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    background-color: springgreen;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__item {
+    background-color: thistle;
+    width: 20vh;
+    padding: 1em;
+    text-align: center;
+    margin: 0 .05em;
+}
+
+.menu__item a {
+    text-decoration: none;
+}
+
+
+.menu__item:hover {
+    background-color: teal;
+}
+

@@ -1,0 +1,78 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+}
+
+li {
+    margin: 6px 0;
+}
+
+code {
+    background-color: lightyellow;
+    padding: 2px;
+    color: darkslategray;
+    font-family: monospace;
+}
+
+.codigobloque code {
+    background-color: lightyellow;
+}
+
+
+.codigobloque {
+    background-color: lightyellow;
+    padding: 4px 10px;
+    
+}
+
+.tab1 {
+    padding-left: .75em;
+}
+
+.tab2 {
+    padding-left: 1.5em;
+}
+
+.tab3 {
+    padding-left: 2.25em;
+}
+
+article {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.algoritmo {
+    width: 60%;
+    vertical-align: top;
+}
+
+aside {
+    display:inline-block;
+    width: 30%;
+    border: 1px solid darkkhaki;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: gray;
+}
+
+h1, h2 {
+    color: orangered;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+h4 {
+    font-style: italic;
+    color: gray;
+    font-weight: normal;
+    padding: 1em 2em;
+}
