@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* IMPORTAR TIPOGRAFÍA */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    background-color: aqua;
+    width: 100%;
+}
+
+nav {
+    background-color: blueviolet;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    background-color: burlywood;
+    padding: 0.5em;
+    margin: .15em;
+}
+
+nav a li:hover {
+    background-color: chartreuse;
+}
+
+.marco {
+    width: 80%;
+    margin: 0 auto;
+    background-color: coral;
+}
+
+iframe, video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.video1 video {
+    width: 100%;
+}
+
+.pagina2 iframe {
+    min-height: 600px;
+}
+
+.video3 iframe {
+    width: 100%;
+    min-height: 350px;
+}
+
+footer {
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    body {
+        background-color: cornflowerblue;
+    }
+
+    nav {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    nav a {
+        display: inline-flex;
+        justify-content: space-around;
+        min-width: 13rem;
+        background-color: darkgoldenrod;
+    }
+
+    nav a:hover {
+        background-color: darkred;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .marco {
+        width: 94%;
+        margin: 0 auto;
+        background-color: coral;
+    }
+
+    .video1 {
+        align-self: start;
+    }
+
+
+}
